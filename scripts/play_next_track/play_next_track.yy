@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"play_next_track",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"play_next_track",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
