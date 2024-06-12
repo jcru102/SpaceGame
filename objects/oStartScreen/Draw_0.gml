@@ -1,0 +1,1 @@
+draw_text(300,500,"Use keys W,A,S,D to move and SPACE to shoot. press SPACE to start");

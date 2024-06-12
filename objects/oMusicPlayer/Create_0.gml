@@ -1,4 +1,12 @@
-/// @description Insert description here
-// You can write your code in this editor
-audio_play_sound(sndYouHaveMyAttention,1,true);
+randomize();
+playing = random_range(0,5);
 
+playList[0] = sndInferno;
+playList[1] = sndATasteOfHope;
+playList[2] = sndYouHaveMyAttention;
+playList[3] = sndTheDarkBeastSotetseg;
+playList[4] = sndInfernoTrapRemix;
+playList[5] = sndTheMaidensAnger;
+
+
+audio_play_sound(playList[playing], 2, false)

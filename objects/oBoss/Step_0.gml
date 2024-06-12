@@ -3,13 +3,14 @@ if(hp = 0){
 }
 
 
+
 if cd-- < 0{
 with(instance_create_layer(x-10,y+34,"Boss",oBossBullet)){
 direction = 180;
 	speed = 13;
 }
 
-if(hp >= 75){
+if(hp >= 15){
 cd = 40;
 }
 else cd = 0;
@@ -34,7 +35,7 @@ if(cd2-- < 0){
 		direction = 180;
 		speed = 13;
 	}
-	if(hp >= 75){
+	if(hp >= 15){
 cd2 = 40;
 }
 else cd2 = 0;
@@ -81,6 +82,3 @@ if(spam < 50 && hp < 300){
 , "Boss", oWallSpecAttack);	
 	spawnY += 50;
 }
-
-
-

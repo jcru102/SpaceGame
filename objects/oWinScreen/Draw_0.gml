@@ -1,0 +1,1 @@
+draw_text(300,500,"Congrats you win, press enter to restart the game.");
